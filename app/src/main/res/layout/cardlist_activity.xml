@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:ignore="MissingPrefix" >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CardListActivity"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出現率"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TableRow
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:text="★"/>
+                <TextView
+                    android:id="@+id/tablerow_nomal_text"/>
+            </TableRow>
+            <TableRow
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:text="★★★"/>
+                <TextView
+                    android:id="@+id/tablerow_rare_text"/>
+            </TableRow>
+            <TableRow
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:text="★★★★★"/>
+                <TextView
+                    android:id="@+id/tablerow_sr_text"/>
+            </TableRow>
+            <TableRow
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:text="★７"/>
+                <TextView
+                    android:id="@+id/tablerow_ssr_text"/>
+            </TableRow>
+            <TableRow
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:text="★１０"/>
+                <TextView
+                    android:id="@+id/tablerow_ur_text"/>
+            </TableRow>
+            <TableRow
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:text="★１２"/>
+                <TextView
+                    android:id="@+id/tablerow_lr_text"/>
+            </TableRow>
+
+
+        </TableLayout>
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:gravity="center"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:columnWidth="100dp"
+            android:minHeight="600dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_btn"
+            android:text="@string/again_btn"/>
+
+    </LinearLayout>
+
+</ScrollView>

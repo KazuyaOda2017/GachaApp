@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">お会計ガチャ</string>
+
+    <string name="gacha_btn">ガチャを引く</string>
+    <string name="again_btn">戻る</string>
+    <string name="start_btn">この設定で開始する</string>
+    <string name="result_btn">結果表示</string>
+    <string name="end_btn">終了</string>
+    <string name="nosaveend_btn">保存せずに終了</string>
+    <string name="save_btn">データを保存する</string>
+    <string name="gameStart_btn">ゲームスタート</string>
+    <string name="cardList_btn">出現カード\n一覧</string>
+    <string name="account_btn">グループ設定</string>
+    <string name="regist_btn">新規登録</string>
+    <string name="history_btn">ゲーム履歴</string>
+
+    <string name="menu_text_group">グループ設定</string>
+    <string name="menu_text_history">ゲーム履歴</string>
+    <string name="menu_text_cardlist">出現カード一覧</string>
+
+    <string name="input_sum_text">金額を入力してください</string>
+
+    <string name="text_player_choise">参加メンバーを選んでください</string>
+
+    <string name="text_select_player">プレイヤーを選択してください</string>
+    <string name="text_gachaFinish">そのプレイヤーはガチャ済みです\n他のプレイヤーを選択してください</string>
+    <string name="text_select_error">プレイヤーを選択してください</string>
+    <string name="text_sumMoney">お会計合計金額</string>
+    <string name="text_equalityMoney">均等に割り勘で</string>
+    <string name="text_playerName">プレイヤー名</string>
+    <string name="text_pay">支払い金額</string>
+    <string name="text_remainder">不足金</string>
+    <string name="text_sum_pay">支払金額合計</string>
+    <string name="text_roundDown_disp">↓↓端数切捨て金額↓↓</string>
+    <string name="text_allDelete">全てのデータを削除しました</string>
+
+    <string name="text_save_config">設定を保存しました</string>
+    <string name="text_save_gameinfo">ゲーム情報を保存しました</string>
+
+    <string name="dialog_title_readerror">読み込みエラー</string>
+    <string name="dialog_title_writeError">書き込みエラー</string>
+    <string name="dialog_title_group">グループ選択</string>
+    <string name="dialog_title_registGroup">新規グループ登録</string>
+    <string name="dialog_title_registPlayer">新規プレイヤー登録</string>
+    <string name="dialog_title_deletePlayer">プレイヤー削除</string>
+    <string name="dialog_message_readerror">ゲームに有効なグループがありません。</string>
+    <string name="dialog_title_error">エラー</string>
+    <string name="dialog_message_CanNotSameNameGroup">既に同名のグループが登録されているため登録できません。</string>
+    <string name="dialog_message_CanNotSameNamePlayer">その名前のプレイヤーは既に登録されています。\n同名のプレイヤーは登録できません。</string>
+    <string name="dialog_message_GroupCountIsMax">グループの登録数が上限に達しています。</string>
+    <string name="dialog_message_NoSelectGroup">グループが選択されていません</string>
+    <string name="dialog_message_UseGroup">グループ設定を使用しますか？</string>
+    <string name="dialog_OK">OK</string>
+    <string name="dialog_Cancel">CANCEL</string>
+    <string name="dialog_Yes">YES</string>
+    <string name="dialog_No">NO</string>
+    <string name="dialog_message_alldelete">全てのデータを削除します。よろしいですか？</string>
+
+    <string name="player_oda">小田</string>
+    <string name="player_nakano">中野</string>
+    <string name="player_shinkawa">新川</string>
+    <string name="player_nakahashi">中橋</string>
+    <string name="player_tanaka">田中</string>
+
+</resources>

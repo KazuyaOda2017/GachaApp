@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="1"
+    android:layout_marginTop="10dp">
+
+    <ImageButton
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pm_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_plus" />
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/player_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="30sp"
+        android:layout_weight="0.94" />
+
+
+
+</LinearLayout>
